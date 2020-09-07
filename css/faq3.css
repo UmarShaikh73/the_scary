@@ -1,0 +1,426 @@
+
+#home {
+    /* height: 150vh;*/
+    width: 100%;
+
+  }
+
+  @media (min-width: 1200px) {
+    .container .jumbotron {
+      background: url(faq.png)no-repeat;
+      height: 569px;
+      box-shadow: 0 0 50px #3F0C1F;
+      border: 2px solid #3F0C1F;
+    }
+  }
+
+  @media(min-width: 992px) and (max-width: 1199px) {
+
+    .container .jumbotron {
+      background: url(faq.png)no-repeat;
+      height: 558px;
+      box-shadow: 0 0 50px #3F0C1F;
+      border: 2px solid #3F0C1F;
+    }
+  }
+
+  @media(min-width: 768px) and (max-width:991px) {
+    .container .jumbotron {
+      background: url(faq.png)no-repeat;
+      height: 432px;
+      box-shadow: 0 0 50px #3F0C1F;
+      border: 2px solid #3F0C1F;
+    }
+  }
+
+  @media(max-width: 768px) {
+    .container .jumbotron {
+      background: url(faq.png)no-repeat;
+      margin-top: 30px;
+      padding: 0;
+      box-shadow: 0 0 50px #3F0C1F;
+      border: 2px solid #3F0C1F;
+    }
+
+    .aside {
+      font-size: x-small;
+    }
+  }
+
+  .city {
+    background-color: tomato;
+    color: white;
+    font-family: 'Great Vibes', cursive;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+  }
+
+
+  .aside {
+    background-color: #f9592f;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  }
+
+
+
+  /* For desktop: */
+  .col-1 {
+    width: 8.33%;
+  }
+
+  .col-2 {
+    width: 16.66%;
+  }
+
+  .col-3 {
+    width: 25%;
+  }
+
+  .col-4 {
+    width: 33.33%;
+  }
+
+  .col-5 {
+    width: 41.66%;
+  }
+
+  .col-6 {
+    width: 50%;
+  }
+
+  .col-7 {
+    width: 58.33%;
+  }
+
+  .col-8 {
+    width: 66.66%;
+  }
+
+  .col-9 {
+    width: 75%;
+  }
+
+  .col-10 {
+    width: 83.33%;
+  }
+
+  .col-11 {
+    width: 91.66%;
+  }
+
+  .col-12 {
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+
+
+  /*ADDED CONTENT*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+
+  * {
+    margin: 0rem;
+    padding: 0rem;
+  }
+
+  html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+  .faq {
+    width: 95%;
+    padding: 0 5px;
+    border: 0.5px solid rgb(255, 179, 179);
+    cursor: pointer;
+    display: flex;
+    margin: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 35px;
+    background-color: #07173b;
+    color: #fff;
+
+  }
+
+  .faq h4 {
+    color: #fff !important;
+  }
+
+  .faq i {
+    color: #6db5ff;
+    transition: all .5s ease-in;
+  }
+
+  .faq .fa-minus {
+    display: none;
+  }
+
+  .active,
+  .faq:hover {
+    background-color: #6db5ff;
+    color: white;
+    transition: all .5s ease-in;
+    border: 2px solid #dddddd;
+  }
+
+  .active .fa-minus {
+    display: block;
+  }
+
+  .active .fa-plus {
+    display: none;
+  }
+
+  .faq h4 {
+    font-size: 20px;
+    margin: 0;
+    color: #001733;
+    padding-left: 5px;
+  }
+
+  .active i,
+  .active h4,
+  .faq:hover i,
+  .faq:hover h4 {
+    color: white;
+  }
+
+  .contentfaq {
+    padding: 0 15px;
+    border-left: 1px solid #9eb6cf;
+    border-right: 1px solid #9eb6cf;
+    margin-left: 25px;
+    font-size: 14px;
+    text-align: justify;
+    overflow: hidden;
+    transition: all .7s ease-out;
+    max-height: 0;
+  }
+
+
+
+
+  #faq {
+    margin-left: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #faq .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 15px;
+  }
+
+
+
+  .faq-row {
+    grid-column-start: 1;
+  }
+
+
+
+
+
+  .faq-row p {
+    font-size: 14px;
+    color: #34384D;
+    line-height: 1.5;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+
+  #home a:hover {
+    color: brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: lightseagreen;
+  }
+
+
+
+
+  /*------------ENd-navbar's CSS For Big screens-------------------------*/
+
+
+
+
+
+
+
+
+  .header {
+    background-color: #424354;
+    color: #ffffff;
+    padding: 15px;
+    font-family: "Lucida Sans", sans-serif;
+  }
+
+ 
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #b52300;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  }
+
+  .menu li:hover {
+    background-color: black;
+  }
+
+
+
+
+  
+
+
+
+/*------------home(header)'s CSS For All screens-------------------------*/
+    
+
+#home{
+	height: auto;
+	width: 100%;
+	background-color: #07173b;
+	display: flex;
+	padding: 5em 0;
+    margin: 0 auto;
+    margin-bottom: 4em;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+    .mtxt {
+        width: 30%;
+        margin: 0 auto;
+    }
+    
+    .mimg{
+        background-color: #07173b;
+        height:100%;
+        width:100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .mimg img{
+        width: auto;
+        height: 20rem;
+        align-self: center;
+    }
+    
+    
+    @media(min-width: 0px) and (max-width:991px) {
+    
+    .mtxt {
+        width: 55%;
+        margin: 0 auto;
+      }
+
+    .mimg img{
+        padding-top: 1em;
+        width: 50%;
+        height: 50%;
+    }
+
+    .fp, .cp, .sp {
+      font-size: 1.5em;
+    }
+    
+      .sp i, .sp2 i, .sp3 i , .ftxt, .contxt, .stxt {
+        font-size: 1.8em;
+      }
+      .fp, .cp, .sp , .sp2 , .sp3 {
+        font-size: 1.1em;
+      }
+    }
+
+    .form-control::placeholder {
+      color: white;
+      font-size: 1.2em;
+      font-weight: 500;
+    }
+    
+    /*------------END-home(header)'s CSS For All screens-------------------------*/
+    
+  @media (min-width: 768px)
+  {
+    .container {
+    width: auto;
+    }
+  }
+    
+    
+.rotait{
+  animation: scary 4s forwards;
+}    
+
+@keyframes scary{
+  0%{
+    transform: rotate(10deg);
+  }
+  10%{
+    transform: rotate(25deg);
+  }
+  
+  20%{
+    transform: rotate(60deg);
+  }
+  
+  30%{
+    transform: rotate(90deg);
+  }
+  
+  40%{
+    transform: rotate(120deg);
+  }
+  
+  50%{
+    transform: rotate(145deg);
+  }
+  
+  60%{
+    transform: rotate(170deg);
+  }
+  
+  70%{
+    transform: rotate(180deg);
+  }
+  
+  80%{
+    transform: translateY(-15px);
+  }
+  
+  90%{
+    transform: translateY(-30px);
+  }
+  
+  100%{
+    transform: translateY(-1000px);
+  }
+}
